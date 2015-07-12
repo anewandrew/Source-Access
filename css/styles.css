@@ -54,6 +54,7 @@ section.header-contact {
 #map-canvas {
 	/*width:500px;*/
 	height:300px;
+	border: 3px solid white;
 }
 .navItem{
 	font-size: 1.5em;
@@ -91,6 +92,15 @@ section.header-contact {
 }
 .textBox{
 	margin-top: 65px;
+}
+.contact-details {
+	margin: 50px 0px;
+	padding: 0px 20px;
+	border-left: 2px solid grey;
+}
+h4 {
+	margin-top: 90px;
+	padding:0px 15px;
 }
 .footer-module{
 	margin-top: 90px;
