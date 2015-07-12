@@ -49,7 +49,11 @@ section.header-products {
 	background-position: bottom;
 }
 section.header-contact {
-	
+	background-image: none;
+}
+#map-canvas {
+	/*width:500px;*/
+	height:300px;
 }
 .navItem{
 	font-size: 1.5em;
