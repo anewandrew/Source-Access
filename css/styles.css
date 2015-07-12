@@ -39,17 +39,17 @@ section.header-content{
 	background-position: center;
 	background-attachment: fixed;
 	width: 80%;
-	height: 350px;
+	height: 320px;
 	margin: 0px auto;
 	margin-top: 45px;
 }
 section.header-products {
-	background-image: url("../img/wireframe-lights.jpg");
+	background-image: url("../img/mall2.jpg");
 	background-size: cover;
 	background-position: bottom;
 }
 section.header-contact {
-
+	
 }
 .navItem{
 	font-size: 1.5em;
@@ -70,19 +70,23 @@ section.header-contact {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
 	font-size: 0.9em;
-	margin: 15px 0px;
-	padding: 20px 100px;
+	/*margin: 15px 0px;*/
+	margin-top: 50px;
+	padding: 0px 100px;
 }
 .quoteByLine {
 	text-align: right;
 	margin: 0px 0px;
 }
-.textBox{
-	margin:0px 0px;
-	padding:0px 15px;
+.textBox1, .textBox{
+	margin:20px 0px;
+	padding:10px 15px;
 	font-size: 0.9em;
 	line-height: 1.8em;
 	font-weight:300;
+}
+.textBox{
+	margin-top: 65px;
 }
 .footer-module{
 	margin-top: 90px;
