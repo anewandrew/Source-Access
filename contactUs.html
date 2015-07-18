@@ -62,12 +62,18 @@
 					</div>
 					<!-- form; have grey border on left side -->
 					<div class="col-md-6 col-xs-12">
-						<form class="contact-details">
+						<form method="POST" action="contact.php" class="contact-details">
+							<label class="form-label">Name</label><br>
 							<input type="text" name="Name"/><br>
-							<input type="text" name-"Company"/><br>
-							<input type="text" name-"Email"/><br>
+							<label class="form-label">Company</label><br>
+							<input type="text" name="Company"/><br>
+							<label class="form-label">Email</label><br>
+							<input type="text" name="Email"/><br>
+							<label class="form-label">Phone</label><br>
 							<!-- phone -->
-							<textarea></textarea>
+							<label class="form-label">Message</label><br>
+							<textarea></textarea><br>
+							<button class="btn btn-primary" type="submit">Submit</button>
 
 							
 						</form>
